@@ -139,7 +139,7 @@ public class ObiecteVizitat extends AppCompatActivity implements OnMapReadyCallb
             googlePlacesUrl = new StringBuilder("https://maps.googleapis.com/maps/api/place/textsearch/json?");
             googlePlacesUrl.append("query=" + city.toLowerCase() + "+city+tourist+interest");
             googlePlacesUrl.append("&language=ro");
-            googlePlacesUrl.append("&key=" + "AIzaSyCYj2lBZq4Ekr9kKu5eXrg1HKeCq4pYse0");
+            googlePlacesUrl.append("&key=" + "add_your_key");
             Log.d("getUrl", googlePlacesUrl.toString());
         } else {
             googlePlacesUrl = new StringBuilder("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
