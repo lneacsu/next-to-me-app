@@ -15,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "687327997899-tstvste8h4m18j59cm15a18k3n7rgfb0.apps.googleusercontent.com",
+          "client_id": "your_client_id",
           "client_type": 1,
           "android_info": {
             "package_name": "com.neal.android.upitplatforma",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "687327997899-2gqmths4leghh0gifnnrfn89r8ter6ev.apps.googleusercontent.com",
+          "client_id": "your_client_id",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAAYabu4Cksi0ZJo676P3SfdCN4tsn_8UQ"
+          "current_key": "add_your_key"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "687327997899-2gqmths4leghh0gifnnrfn89r8ter6ev.apps.googleusercontent.com",
+              "client_id": "your_client_id",
               "client_type": 3
             }
           ]
