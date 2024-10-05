@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.esri.android.nearbyplaces.MainActivity">
+ <item android:id="@+id/profil"
+     android:title="Jurnal"
+     android:orderInCategory="100"
+     android:icon="@android:drawable/ic_dialog_map"
+     app:showAsAction="always">
+ </item>
+   <item android:id="@+id/romana"
+       android:title="RO"
+       android:icon="@drawable/romania">
+    </item>
+    <item android:id="@+id/engleza"
+        android:title="EN">
+    </item>
+    <item android:id="@+id/franceza"
+        android:title="FR">
+    </item>
+    <item android:id="@+id/spaniola"
+        android:title="SP">
+    </item>
+ <!--<item android:id="@+id/profil"-->
+     <!--android:title="Jurnal">-->
+ <!--</item>-->
+
+</menu>

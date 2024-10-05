@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Aproape de mine</string>
+    <string name="va_aflati">You are in the city of</string>
+    <string name="descopera_oras">Discover the city</string>
+    <string name="spital">Hospital</string>
+    <string name="monumente">Tourist attractions</string>
+    <string name="mall">Mall</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="parc">Park</string>
+</resources>

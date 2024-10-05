@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/longPress"
+    android:layout_width="185dp"
+    android:layout_height="250dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:elevation="3dp"
+        card_view:cardElevation="5dp"
+        card_view:cardBackgroundColor="@color/card_color"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imagine"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/locVizitat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imagine"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:fontFamily="serif"
+                android:text="loc"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:paddingTop="7dp"
+                android:textStyle="italic"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/locVizitat"
+                android:paddingBottom="3dp"
+                android:paddingLeft="7dp"
+                android:fontFamily="serif"
+                android:text="data"
+                android:paddingRight="3dp"
+                android:textStyle="italic"
+                android:textSize="10dp" />
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="@dimen/ic_album_overflow_width"
+                android:layout_height="@dimen/ic_album_overflow_height"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/imagine"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="3dp"
+                android:layout_marginTop="@dimen/ic_album_overflow_margin_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dots" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

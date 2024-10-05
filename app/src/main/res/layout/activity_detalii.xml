@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/no_image"
+        android:id="@+id/imagineLocatie"
+        android:background="@color/grey_300"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imagineLocatie"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TEST"
+    android:fontFamily="serif"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textSize="25dp"
+    android:textStyle="italic"
+    android:paddingLeft="35dp"
+    android:id="@+id/placeName"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nota"
+                android:layout_marginTop="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20dp"
+                android:paddingLeft="35dp"
+                android:id="@+id/nota"/>
+
+            <RatingBar
+                android:id="@+id/rating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/nota"
+                android:paddingTop="7dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="3dp"
+                android:numStars="5" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/man"
+                android:layout_below="@id/nota"
+                android:id="@+id/man"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="distanta"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/rating"
+                android:layout_toRightOf="@id/man"
+                android:paddingTop="7dp"
+                android:textColor="@color/grey_500"
+                android:id="@+id/dep"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tip Obiectiv"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/man"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/grey_500"
+                android:id="@+id/typeLoc"/>
+        </RelativeLayout>
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+        android:background="@color/grey_300" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/save"
+                android:id="@+id/save"
+                android:layout_marginLeft="60dp" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/share"
+                android:id="@+id/share"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="60dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save"
+                    android:textSize="15dp"
+                    android:layout_below="@id/save"
+                    android:layout_marginLeft="65dp"
+                    android:textColor="@color/grey_500" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+                    android:textSize="15dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/share"
+                    android:id="@+id/linie1"
+                    android:layout_marginRight="65dp"
+                    android:textColor="@color/grey_500" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/linie1"
+                    android:id="@+id/linie2"
+                    android:background="@color/grey_300" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/sAdress"
+                    android:layout_below="@id/linie2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:id="@+id/placeAddress"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:alpha=".87"
+                        android:drawableStart="@drawable/ic_place_black_24dp"
+                        android:drawablePadding="20dp"
+                        android:text="Address"
+                        android:textColor="@color/grey_500"
+                        android:textSize="17dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/sAdress"
+                    android:id="@+id/linie3"
+                    android:background="@color/grey_300" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:gravity="center"
+                    android:layout_below="@id/linie3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/distance"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:alpha=".87"
+                        android:drawableStart="@drawable/ic_place_black_24dp"
+                        android:drawablePadding="20dp"
+                        android:text="Distance"
+                        android:textColor="@color/grey_500"
+                        android:textSize="17dp" />
+                </LinearLayout>
+        </RelativeLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

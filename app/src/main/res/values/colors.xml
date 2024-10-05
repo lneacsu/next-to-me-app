@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4181e7</color>
+    <color name="colorPrimaryDark">#4181e7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="navbar">#4181e7</color>
+    <color name="text">#000000</color>
+    <color name="spin">#cf538ce8</color>
+    <color name="darkGray">#8a8a8a</color>
+    <color name="basicSpin">#d2f1e102</color>
+    <color name="fundal">#cde3f5</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="fab_margin">#00cc00</color>
+    <color name="card_color">#e6e6e6</color>
+    <color name="stars">#ffcc00</color>
+
+</resources>

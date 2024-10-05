@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/b1"
+        android:src="@drawable/b1"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="2dp"
+
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/b2"
+        android:layout_toRightOf="@id/b1"
+        android:src="@drawable/b2"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="2dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/b3"
+        android:layout_toRightOf="@id/b2"
+        android:src="@drawable/b3"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/b4"
+        android:src="@drawable/b4"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/b1"
+        android:layout_marginRight="2dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/b5"
+        android:layout_toRightOf="@id/b4"
+        android:src="@drawable/b5"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/b2"
+        android:layout_marginRight="2dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/b6"
+        android:layout_toRightOf="@id/b5"
+        android:src="@drawable/b6"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/b3"
+        />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
